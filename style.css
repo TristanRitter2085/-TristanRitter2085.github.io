@@ -6,7 +6,7 @@ body {
 
 .header-container {
     display: flex;
-    justify-content: space-between; /* Aligns the title to the left and button to the right */
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
     position: relative;
@@ -20,7 +20,7 @@ h1 {
 .align-hr {
     width: 100%;
     border: 1px solid #000;
-    margin: 0; /* Ensure no extra margin */
+    margin: 0; 
 }
 
 .dropdown {
@@ -42,7 +42,7 @@ h1 {
     background-color: hsl(0, 0%, 80%);
     min-width: 100px;
     box-shadow: 2px 2px 2px hsla(0, 0, 0.8);
-    right: 0; /* Ensure dropdown content aligns with the button */
+    right: 0;
 }
 
 .dropdown:hover .content {
