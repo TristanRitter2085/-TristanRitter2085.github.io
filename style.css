@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Aligns the title to the left and button to the right */
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.align-hr {
+    width: 100%;
+    border: 1px solid #000;
+    margin: 0; /* Ensure no extra margin */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown button {
+    background-color: hsl(0, 0%, 80%);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown .content {
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 80%);
+    min-width: 100px;
+    box-shadow: 2px 2px 2px hsla(0, 0, 0.8);
+    right: 0; /* Ensure dropdown content aligns with the button */
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.dropdown:hover button {
+    background-color: hsl(0, 0, 70%);
+}
+
+.dropdown a {
+    display: block;
+    color: rgb(5, 3, 3);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown a:hover {
+    background-color: hsl(0, 0, 70%);
+}
